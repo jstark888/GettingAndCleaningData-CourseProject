@@ -8,11 +8,11 @@ The subject tables have a column of subject identifiers (1 - 30), where each row
 
 The activity tables have a column of activity identifiers (1 - 6), where each row in the column is for a particular measurement taken while a particular subject is performing the activity.
 
-The features tables have columns for each measurement (561), where each row are the measurements taken for a particular subject peforming a particular activity at a particular time.
+The features tables have columns for each measurement or statistic (561 variables total), where in each row are the measurements taken for a particular subject peforming a particular activity at a particular time.
 
 The activity labels table has the following labels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING.
 
-The feature labels table has 561 labels each descriptively identifying a particular feature measurement. The document, features_info.txt, included in this repositorary, has detailed descriptions on what the features are.
+The feature labels table has 561 labels each descriptively identifying a particular feature measurement or statistic. The document, features_info.txt, included in this repositorary, has detailed descriptions on what the features are.
 
 The table returned by the script run_analysis.R is produced from the original dataset in the following way:
 
